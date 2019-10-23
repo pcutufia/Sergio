@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
 
 
         
@@ -12,21 +13,24 @@
 
 
 <body>
-    <form action="https://formspree.io/email@domain.tld" method="POST"></form>
+    <form action="https://formspree.io/pablocutufia@hotmail.com" method="POST"></form>
     <fieldset>
         <legend>Datos</legend>
         <label for="nombre">Ingrese su nombre</label>
-        <input type="text"  name="nombre" id="nombre" value=""><br><br>
+        <input type="email"  style="border-style:solid;border-width:0px 0px 1px 0px" name="nombre" id="nombre" value=""><br><br>
         <label for="clave">Ingrese su clave</label>
-        <input type="password"  name="clave" id="clave" value=""> 
+        <input type="password" style="border-style:solid;border-width:0px 0px 1px 0px" name="clave" id="clave" value=""> 
     </fieldset>    
 
     <br>
     <label for="sueldo">Ingrese su sueldo</label>
-    <input type="text" style="border-style:solid;border-width:0px  name="sueldo" id="sueldo"    value="11">
+    <input type="text" style="border-style:solid;border-width:0px 0px 1px 0px" name="sueldo" id="sueldo" value="11">
     
     <label for="adjunto">Seleccionar archivo</label>
-    <input type="file" name="adjunto"> <br>
+    <input type="file" name="adjunto"> <br><br>
+    <input type="text">
+    
+    <hr>
     
     <label for="envio">Desea enviar?</label>
     <input type="checkbox"  name="envio" id="envio" checked="checked"><br>
@@ -35,6 +39,7 @@
     <input type="radio" name="opciones">
     <input type="radio" name="opciones">
     <input type="radio" name="opciones"><br>
+    <hr>
 
     <label for="color">Elija un color</label>
     <select name="color" id="color">
